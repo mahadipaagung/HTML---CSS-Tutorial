@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+h3 {
+    margin: 10px;
+}
+h4 {
+    margin: 10px;
+}
+h5:hover {
+    color: cornflowerblue;
+}
+p {
+    margin: 10px;
+}
+.top-container {
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.page-title {
+    margin: 25px 0px 0px 50px;
+}
+#profile-box {
+    display: flex;
+    margin: 35px 70px 0px 0px;
+    float: right;
+}
+#foto-profil-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.bottom-container {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.20) inset;
+    background-color: #ebe9e8;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-profile {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.56);
+    background-color: white;
+    border-radius: 15px;
+    width: 700px;
+    margin: 25px 0px 25px 0px;
+}
+#foto-profil {
+    display: block;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.right-container {
+    float: right;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.top-right {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.56);
+    background-color: white;
+    border-radius: 25px;
+    margin: 23px 15px 15px 15px;
+    padding: 0px 15px;
+}
+.bottom-right {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.56);
+    background-color: white;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 0px 15px;
+}
+#contact1, #contact2, #contact3, #contact4 {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+.trombol-turun {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.57);
+    border: none;
+    display: block;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+.trombol-turun:hover {
+    background-color: cornflowerblue;
+}
+.mid-section {
+    width: auto;
+    height: 100vh;
+    margin-top: 50px;
+    text-align: center;
+}
+.container-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.view1, .view2, .view3 {
+    margin: 30px;
+    height: auto;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.57);
+    border-radius: 25px;
+}
+#pv1 {
+    margin: 15px;
+    border-radius: 40%;
+    width: 250px;
+    height: 300px;
+}
+#pv2, #pv3 {
+    margin: 15px;
+    border-radius: 40%;
+    width: 300px;
+    height: 300px;
+}
+.btn-keatas {
+    margin: 50px 0px 0px 0px;
+    border-radius: 50%;
+    max-width: 80%;
+    width: 50px;
+    height: 40px;
+}
+#scroll-button {
+    margin: auto;
+    border-radius: 50%;
+    max-width: 100%;
+}
